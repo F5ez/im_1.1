@@ -56,10 +56,23 @@
   </a-box>
 
 
+
+
   <a-text value="Вiтаю у браузернiй VR!
 Ксенчук" color="black"
           width="10" position="-0.5 1 -6" font ="comici-msdf.json" negate="false" ></a-text>
+  <a-gltf-model src="chonky_cat_trio.glb" position=" 7 1 -8.5" rotation="0 -30 0"
+  animation="
+  property:scale;
+    from:1 1 1;
+    to:4 4 4;
+    loop: true;
+    dir:  alternate;
+    easing: easeInOutSine;
+    dur: 10000"
+  >;
 
+  ></a-gltf-model>
 </a-scene>
 </body>
 </html>
