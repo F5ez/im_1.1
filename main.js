@@ -43,8 +43,6 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.appendChild(video);
     document.body.appendChild(renderer.domElement);
 
-    // 6. Initialize AR engine (placeholder)
-    const ar = new SOME_AR_ENGINE({ /* options */ });
 
     // Helper for next frame
     function nextVideoFrameReady() {
